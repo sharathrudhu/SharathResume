@@ -1,0 +1,139 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+
+\usepackage[normalem]{ulem} % For underlining text
+
+% Page layout settings
+\geometry{
+    a4paper,
+    left=0.8in,
+    right=0.8in,
+    top=0.7in,
+    bottom=0.7in
+}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{1.5ex}{1ex}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+\titlespacing{\subsection}{0ex}{1.5ex}{1ex}
+% Custom list settings
+\setlist{nosep, left=0pt, labelindent=0pt, itemindent=0pt, labelsep=0.5em}
+
+% Helper for aligning dates to the right
+\newcommand{\dateright}[1]{\hfill \small \textbf{#1}}
+
+\hypersetup{
+    colorlinks=true,  % Enable colored links
+    urlcolor=blue    % Set URL color to black (or any subtle color)
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\LARGE \textbf{Sharath R}} \\
+    \vspace{0.2em}
+    Bangalore, India |
+    \small \href{mailto:sharath.rajamani@gmail.com}{{sharathr.webdeveloper@gmail.com}} |
+    +91 7904178875 |
+    \href{https://www.linkedin.com/in/sharathrajamani}{{linkedin.com/in/sharathrajamani}}\end{center}
+
+% \vspace{-1.0em}
+
+% Skills Section
+\section*{SKILLS}
+\begin{itemize}
+    \item \textbf{Languages:} JavaScript E6+, Python, PHP, HTML5, CSS3, Typescript.
+    \item \textbf{Libraries:} React, Redux, Material UI, Ant Design, Shadcn, Tailwind, jQuery, Bootstrap.
+    \item \textbf{Databases:} MySQL, Oracle, SQL Server.
+    \item \textbf{Others:} Git, REST APIs, Axios, Webpack, Vite, Babel.
+\end{itemize}
+
+% Work Experience Section
+\section*{WORK EXPERIENCE}
+\subsection*{Image Creative Education \dateright{Oct 2021 - Feb 2023}}
+\noindent \textbf{Web Faculty}
+\begin{itemize}
+\item Mentored over 100 students in UI design, covering elements like menus, tabs, and widgets through visual instruction and hands-on exercises in mockup and prototype creation, resulting in enhanced design skills.
+\item Increased student course completion rates by 90\% by establishing clear expectations, structured assessments, and an interactive curriculum with Adobe Photoshop and Adobe XD for practical website design training.
+\item Delivered personalized feedback and support, which led to a 60\% improvement in students' average grades and self-guided progress tracking.
+\item Trained 30 students in both foundational and advanced concepts of React JSX, TSX, MySQL, Bootstrap, and Git, providing industry-relevant skills.
+\end{itemize}
+
+\subsection*{Freelance Web Developer \dateright{Apr 2016 - Oct 2021}}
+\noindent\textbf{Frontend Web Developer}
+\begin{itemize}
+    \item Developed and customized 10 websites using modular coding and responsive design with Bootstrap and media queries, achieving high-quality, user-friendly websites that boosted lead generation.
+    \item Attained a 95\% client satisfaction rate by maintaining clear and consistent communication, utilizing Agile methodologies to align project scope and timelines with client expectations.
+    \item Built and optimized React websites following industry-standard design principles; utilized react toolkit, hooks, Context API, and A/B testing to streamline development, delivering projects 40\% faster.
+    \item Established robust contingency plans including multi-threading to reduce website downtime to near zero, ensuring uninterrupted user experience for clients’ customers.
+    \item Conducted thorough cross-device testing (desktop, mobile, tablet) to guarantee seamless interaction across all platforms, resulting in a 70\% increase in user engagement.
+\end{itemize}
+
+\subsection*{VB Developer \dateright{Apr 2014 - Apr 2016}}
+\begin{itemize}
+    \item Created and maintained 13 desktop applications in VB, handling both front-end and back-end functionalities, and used MySQL and SQL Server to ensure reliable integration with client systems.
+\end{itemize}
+
+\section*{AREAS OF EXPERTISE}
+\vspace{-1.2em}
+\begin{multicols}{3}
+\begin{itemize}
+    \item Front-End Development
+    \item Agile Methodologies
+\end{itemize}
+
+\columnbreak % Move to the next column
+
+\begin{itemize}
+    \item Web Design \& Development
+    \item React web development
+\end{itemize}
+
+\columnbreak % Move to the next column
+
+\begin{itemize}
+    \item Client Communication
+    \item Training \& Mentoring
+\end{itemize}
+\end{multicols}
+
+% Section: Education
+\section*{EDUCATION}
+\subsection*{Scaler \dateright{Bangalore, India}}
+\vspace{-0.4em}
+\noindent \textit{Specialized in Advanced Software Development} 
+
+\vspace{-0.2em}
+
+\subsection*{Velammal Institute of Technology \dateright{Chennai, India}}
+\vspace{-0.4em}
+\noindent \textit{Bachelor of Engineering in Computer Science}
+
+% Section: Projects
+\section*{PROJECTS}
+\subsection*{\href{https://sync-cinema-staging.vercel.app/}{Sync Cinema Website} \dateright{Apr 2025 - Present}}
+\begin{itemize}
+    \item Redesigned client's studio website by utilizing modern UI frameworks, tools, and Libraries such as React with TSX, Tailwind, Shadcn, lazy-loading, improving website performance by 100\%.
+    \item Developed using mobile-first approach and to adapt for three resolutions - mobile, tablets, and desktop.
+    
+\end{itemize}
+
+\section*{CERTIFICATIONS \dateright{\href{https://drive.google.com/drive/folders/1Q2Wjr-JtRZxGxVz04GJUC_SbUoaoYTW4}{Link}}}
+
+
+\begin{itemize}
+    \item Scaler: Data Structures and Algorithms – Gained expertise in problem-solving and algorithmic thinking.
+    \item Scaler: Databases and SQL – Built a strong foundation in DBMS, query optimization, and schema design.  
+    \item Udemy: The Complete Web Developer Course 3.0 – Acquired hands-on experience with modern web technologies and frameworks.  
+    \item Udemy: Python Programming – Mastered fundamental concepts and architecture of Python.  
+\end{itemize}
+
+\end{document}
